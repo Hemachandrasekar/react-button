@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns:237px 1fr;
+  height:100vh;
+  /* background-color:#eee; */
+  /* flex-direction:column; */
+}
+.App + div{
+  background-color:#efefef;
+
+}
+.header{
+text-align:left;
+  padding-left:10px
+
+}
+.heading1{
+color:red;
+}
+.menu-item ul{
+list-style:none;
+text-align:left;
+}
+.menu-item li{
+  padding:10px
+}
